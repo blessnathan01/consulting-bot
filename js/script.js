@@ -103,7 +103,7 @@ $(document).ready(function() {
         $.ajax({
             // url: 'https://tambua-project.herokuapp.com/webhooks/rest/webhook', //  RASA API
             // url: 'http://localhost:5005/webhooks/rest/webhook', //  RASA API
-            url: 'https://5005-fuchsia-guineafowl-cjiolvvi.ws-eu16.gitpod.io/', //  RASA API
+            url: 'https://5005-fuchsia-guineafowl-cjiolvvi.ws-eu16.gitpod.io/webhooks/rest/webhook', //  RASA API
             type: 'POST',
             headers: {
                 'Content-Type': 'application/json'
