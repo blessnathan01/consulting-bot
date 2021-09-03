@@ -90,3 +90,17 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+# employer
+
+- intent: 
+- intent: post_jobs
+  examples: |
+    - how can I post a job
+
+# job seeker
+
+- intent: 
+- intent: apply_job
+  examples: |
+    - how can I apply for a job
