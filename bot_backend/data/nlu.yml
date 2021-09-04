@@ -100,7 +100,68 @@ nlu:
 
 # job seeker
 
-- intent: 
-- intent: apply_job
+- intent: apply_for_a_job
   examples: |
     - how can I apply for a job
+    - how do I apply for a job
+    - how do I apply for a position
+
+- intent: steps_after_applying
+  examples: |
+    - what are next steps after I apply online for a position
+    - what are next steps after I apply online for a job
+
+- intent: multiple_applications
+  examples: |
+    - I saw multiple positions on website, should I apply for all
+    - I saw multiple jobs on website, should I apply for all
+    - can I apply for multiple jobs
+    - can I apply for multiple positions
+
+- intent: search_job
+  examples: |
+    - how can I search for a job
+    - how can I find a job
+    - can you help me find a job
+    - how can I search for a position
+    - how can I find a position
+    - can you help me find a position
+
+- intent: service_cost
+  examples: |
+    - is there a cost for your service
+
+- intent: feedback_after_applying 
+  examples: |
+    - what should I do if I haven't heard back from an application
+
+- intent: recommended_for_jobs 
+  examples: |
+    - how to I ensure that I will be considered for current or future positiions
+    - how to I ensure that I will be considered for current or future jobs
+
+- intent: seeking_for_advice_on_resume 
+  examples: |
+    - can someone review my resume and give me advice
+    - can someone review my cv and give me advice
+
+- intent: career_coaching 
+  examples: |
+    - do you offer career career_coaching
+
+- intent: interview_preparation 
+  examples: |
+    - how should I prepare for my interview
+
+- intent: fair_pay_for_skills 
+  examples: |
+    - how can I determine a fair pay for my skills
+    - how can I determine a fair salary for my skills
+
+- intent: meet_in_person 
+  examples: |
+    - can we meet in person
+
+
+
+    
