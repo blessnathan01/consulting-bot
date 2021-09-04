@@ -12,7 +12,6 @@ intents:
   - apply_for_a_job
   - steps_after_applying
   - multiple_applications
-  - search_job
   - service_cost
   - feedback_after_applying
   - recommended_for_jobs
@@ -41,11 +40,22 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! Welcome to our website, I would be happy to assist you to"
-  - text: "Hey there! Welcome to our website, I would be happy to assist you to"
-  - text: "Hi there! Welcome to our website, I would be happy to assist you to"
-  - text: "Hello! Welcome to our website, I would be happy to assist you to"
-  - text: "Hi! Welcome to our website, I would be happy to assist you to"
+  - text: "Hey! Welcome to our website, I would be happy to assist you with the following options:"
+  - text: "Hey there! Welcome to our website, I would be happy to assist you with the following options:"
+  - text: "Hi there! Welcome to our website, I would be happy to assist you with the following options:"
+  - text: "Hello! Welcome to our website, I would be happy to assist you with the following options:"
+  - text: "Hi! Welcome to our website, I would be happy to assist you with the following options:"
+    buttons:
+    - title: "search for a job or position"
+      payload: "/search_for_a_job_effectively"
+    - title: "apply for a job or position"
+      payload: "/apply_for_a_job"
+    - title: "best place to find a job"
+      payload: "/best_place_to_find_a_job"
+    - title: "best time to look for a job"
+      payload: "/best_time_to_look_for_a_job"
+    - title: "post a new job"
+      payload: "/post_jobs"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -59,6 +69,9 @@ responses:
 
   utter_goodbye:
   - text: "Bye"
+
+  utter_search_for_a_job_effectively:
+  - text: "First, create an account"
 
   utter_iamabot:
   - text: "I am a bot, powered by Abner Consulting."

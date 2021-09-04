@@ -118,17 +118,6 @@ nlu:
     - can I apply for multiple jobs
     - can I apply for multiple positions
 
-- intent: search_job
-  examples: |
-    - how can I search for a job
-    - how can I hunt for a job
-    - how can I find a job
-    - can you help me find a job
-    - how can I search for a position
-    - how can I hunt for a position
-    - how can I find a position
-    - can you help me find a position
-
 - intent: service_cost
   examples: |
     - is there a cost for your service
@@ -235,8 +224,16 @@ nlu:
 
 - intent: search_for_a_job_effectively 
   examples: |
-    - how to do I search for a job effectively
-    - how to do I hunt for a job effectively
+    - how can I search for a job effectively
+    - how can I hunt for a job effectively
+    - how can I find a job effectively
+    - can you help me find a job effectively
+    - how can I search for a position effectively
+    - how can I hunt for a position effectively
+    - how can I find a position effectively
+    - can you help me find a position effectively
+    - how do I search for a job effectively
+    - how do I hunt for a job effectively
 
 - intent: look_for_a_new_job_while_still_employed 
   examples: |
