@@ -122,9 +122,11 @@ nlu:
 - intent: search_job
   examples: |
     - how can I search for a job
+    - how can I hunt for a job
     - how can I find a job
     - can you help me find a job
     - how can I search for a position
+    - how can I hunt for a position
     - how can I find a position
     - can you help me find a position
 
@@ -183,6 +185,7 @@ nlu:
   examples: |
     - should I apply for a job even if I don't have the specified experience
     - should I apply for a position even if I don't have the specified experience
+    - should I apply for a job even if I don’t have the required experience
 
 - intent: how_to_address_a_hiring_manager 
   examples: |
@@ -190,7 +193,7 @@ nlu:
 
 - intent: waiting_period_after_applying 
   examples: |
-    - how long should I wait before following up
+    - how long should I wait before following up 
 
 - intent: sending_thank_you_letter 
   examples: |
@@ -205,4 +208,41 @@ nlu:
     - Where is the best place to find a job
     - Where is the best place to find a position
 
-    
+- intent: job_search_website 
+  examples: |
+    - which job search website should I use
+    - which job hunt website should I use
+
+- intent: follow_up_after_an_interview 
+  examples: |
+    - should I follow up after an interview
+
+- intent: write_a_cover_letter 
+  examples: |
+    - should I write a cover letter
+
+- intent: best_time_to_look_for_a_job 
+  examples: |
+    - when is the best time to look for a job
+
+- intent: stay_motivated_during_the_job_hunt 
+  examples: |
+    - how do I stay motivated during the job hunt
+    - how do I stay motivated during the job search
+
+- intent: apply_in_person_or_online 
+  examples: |
+    - should I apply for jobs in person or online
+
+- intent: search_for_a_job_effectively 
+  examples: |
+    - how to do I search for a job effectively
+    - how to do I hunt for a job effectively
+
+- intent: look_for_a_new_job_while_still_employed 
+  examples: |
+    - how do I look for a new job while am still employed
+
+- intent: doing_network_effectively_to_help_my_career
+  examples: |
+    - how do I do network effectively to help my career
