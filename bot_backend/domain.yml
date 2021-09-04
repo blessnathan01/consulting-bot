@@ -40,11 +40,11 @@ intents:
 
 responses:
   utter_greet:
-  - text: "Hey! Welcome to our website, I would be happy to assist you with the following options:"
-  - text: "Hey there! Welcome to our website, I would be happy to assist you with the following options:"
-  - text: "Hi there! Welcome to our website, I would be happy to assist you with the following options:"
-  - text: "Hello! Welcome to our website, I would be happy to assist you with the following options:"
-  - text: "Hi! Welcome to our website, I would be happy to assist you with the following options:"
+  - text: "Hey! Welcome to our website, I would be happy to assist you"
+  - text: "Hey there! Welcome to our website, I would be happy to assist you"
+  - text: "Hi there! Welcome to our website, I would be happy to assist you"
+  - text: "Hello! Welcome to our website, I would be happy to assist you"
+  - text: "Hi! Welcome to our website, I would be happy to assist you"
     buttons:
     - title: "search for a job or position"
       payload: "/search_for_a_job_effectively"
