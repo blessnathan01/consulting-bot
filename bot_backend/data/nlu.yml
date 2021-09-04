@@ -93,7 +93,6 @@ nlu:
 
 # employer
 
-- intent: 
 - intent: post_jobs
   examples: |
     - how can I post a job

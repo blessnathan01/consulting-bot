@@ -8,10 +8,44 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - post_jobs
+  - apply_for_a_job
+  - steps_after_applying
+  - multiple_applications
+  - search_job
+  - service_cost
+  - feedback_after_applying
+  - recommended_for_jobs
+  - seeking_for_advice_on_resume
+  - career_coaching
+  - interview_preparation
+  - fair_pay_for_skills
+  - meet_in_person
+  - resume_length
+  - resume_content
+  - apply_with_no_experience
+  - how_to_address_a_hiring_manager
+  - waiting_period_after_applying
+  - sending_thank_you_letter
+  - personal_brand
+  - best_place_to_find_a_job
+  - job_search_website
+  - follow_up_after_an_interview
+  - write_a_cover_letter
+  - best_time_to_look_for_a_job
+  - stay_motivated_during_the_job_hunt
+  - apply_in_person_or_online
+  - search_for_a_job_effectively
+  - look_for_a_new_job_while_still_employed
+  - doing_network_effectively_to_help_my_career
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! Welcome to our website, I would be happy to assist you to"
+  - text: "Hey there! Welcome to our website, I would be happy to assist you to"
+  - text: "Hi there! Welcome to our website, I would be happy to assist you to"
+  - text: "Hello! Welcome to our website, I would be happy to assist you to"
+  - text: "Hi! Welcome to our website, I would be happy to assist you to"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"

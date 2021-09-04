@@ -64,11 +64,6 @@ $(document).ready(function() {
                 $("#chat-input").blur();
                 setUserResponse(text);
                 send(text);
-
-                $.post("save_data.php", {
-                    message: $("#chat-input").val(),
-                });
-
                 e.preventDefault();
                 return false;
             }
@@ -85,11 +80,6 @@ $(document).ready(function() {
             $("#chat-input").blur();
             setUserResponse(text);
             send(text);
-
-            $.post("save_data.php", {
-                message: $("#chat-input").val(),
-            });
-
             e.preventDefault();
             return false;
         }
