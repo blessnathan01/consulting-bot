@@ -26,7 +26,7 @@ $(document).ready(function() {
 
         '<div class="profile_div">' +
         '<div class="col-hgt col-sm-offset-2">' +
-        '<img src="logo.png" class="img-circle img-profile" style="box-shadow: 0px 0px 20px #5a0421;">' +
+        '<img src="logo.png" alt="bot_image" class="img-circle img-profile" style="box-shadow: 0px 0px 20px #5a0421;">' +
         '</div><!--col-hgt end-->' +
         '</div><!--profile_div end-->';
 

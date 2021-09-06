@@ -12,7 +12,7 @@ intents:
   - apply_for_a_job
   - steps_after_applying
   - multiple_applications
-  - service_cost
+  - service_cost_seeker
   - feedback_after_applying
   - recommended_for_jobs
   - seeking_for_advice_on_resume
@@ -37,10 +37,41 @@ intents:
   - search_for_a_job_effectively
   - look_for_a_new_job_while_still_employed
   - doing_network_effectively_to_help_my_career
+  - differentiate_from_others
+  - positions_fall_under_executive_search
+  - our_recruiting_process
+  - time_to_fill_a_position
+  - specialized_positions
+  - specialized_industries
+  - coverage
+  - retainer
+  - service_cost_employer
+  - guarantee_offered_for_hired_candidates
+  - candidates_location
+  - candidates_state
+  - recruit_from_competitors
+  - guidance_on_compensation_for_position
+  - sales_commission
+  - recruit_for_temporary_positions
+  - recruit_for_b2c_sales
+  - ways_to_share_resumes_with_others
+  - ways_to_receive_resumes
+  - ways_to_report_a_bug
+  - ways_to_post_sales_rep_info
+  - progress_of_employers_payment
+  - kind_of_job_seekers_available
+  - ways_to_edit_posting
+  - confidential_post
+  - ways_for_job_seekers_to_find_posted_jobs
+  - ways_for_job_seekers_to_find_our_site
+  - rates_location
+  - who_are_we
+  - our_vision
+  - our_mission
 
 responses:
   utter_greet:
-  - text: "Hey! Welcome to our website, I would be happy to assist you"
+  - text: "Hey! Welcome to Abner Consulting, I'd be happy to assist you"
     buttons:
     - title: "search for a job or position"
       payload: "/search_for_a_job_effectively"
@@ -52,7 +83,7 @@ responses:
       payload: "/best_time_to_look_for_a_job"
     - title: "post a new job"
       payload: "/post_jobs"
-  - text: "Hey there! Welcome to our website, I would be happy to assist you"
+  - text: "Hey there! Welcome to Abner Consulting, I'd be happy to assist you"
     buttons:
     - title: "search for a job or position"
       payload: "/search_for_a_job_effectively"
@@ -64,7 +95,7 @@ responses:
       payload: "/best_time_to_look_for_a_job"
     - title: "post a new job"
       payload: "/post_jobs"
-  - text: "Hi there! Welcome to our website, I would be happy to assist you"
+  - text: "Hi there! Welcome to Abner Consulting, I'd be happy to assist you"
     buttons:
     - title: "search for a job or position"
       payload: "/search_for_a_job_effectively"
@@ -76,7 +107,7 @@ responses:
       payload: "/best_time_to_look_for_a_job"
     - title: "post a new job"
       payload: "/post_jobs"
-  - text: "Hello! Welcome to our website, I would be happy to assist you"
+  - text: "Hello! Welcome to Abner Consulting, I'd be happy to assist you"
     buttons:
     - title: "search for a job or position"
       payload: "/search_for_a_job_effectively"
@@ -88,7 +119,7 @@ responses:
       payload: "/best_time_to_look_for_a_job"
     - title: "post a new job"
       payload: "/post_jobs"
-  - text: "Hi! Welcome to our website, I would be happy to assist you"
+  - text: "Hi! Welcome to Abner Consulting, I'd be happy to assist you"
     buttons:
     - title: "search for a job or position"
       payload: "/search_for_a_job_effectively"
@@ -100,6 +131,20 @@ responses:
       payload: "/best_time_to_look_for_a_job"
     - title: "post a new job"
       payload: "/post_jobs"
+
+  utter_who_are_we:
+  - text: "Abner Consulting Limited is a company incorporated in Tanzania providing a full range of management consultancy services in the areas of human resources management, organizational design and development, performance management, training, and team building"
+  - text: "We are a company incorporated in Tanzania providing a full range of management consultancy services in the areas of human resources management, organizational design and development, performance management, training, and team building"
+
+  utter_our_vision:
+  - text: "To be a consultancy firm of choice in East Africa and beyond"
+  - text: "Our vision is to be a consultancy firm of choice in East Africa and beyond"
+  - text: "Here is our vision: 'To be a consultancy firm of choice in East Africa and beyond'"
+
+  utter_our_mission:
+  - text: "To provide satisfactory high quality management solutions to our customers beyond their expectations"
+  - text: "Our mission is To provide satisfactory high quality management solutions to our customers beyond their expectations"
+  - text: "Here is our mission: 'To provide satisfactory high quality management solutions to our customers beyond their expectations'"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -118,7 +163,7 @@ responses:
   - text: "First, create an account"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Abner Consulting."
+  - text: "I am a bot, powered by Abner Consulting"
 
 session_config:
   session_expiration_time: 60

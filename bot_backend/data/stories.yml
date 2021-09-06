@@ -35,3 +35,24 @@ stories:
   - action: utter_greet
   - intent: search_for_a_job_effectively
   - action: utter_search_for_a_job_effectively
+
+- story: who are we path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: who_are_we
+  - action: utter_who_are_we
+
+- story: our vision path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: our_vision
+  - action: utter_our_vision
+
+- story: our mission path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: our_mission
+  - action: utter_our_mission

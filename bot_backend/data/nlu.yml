@@ -92,14 +92,7 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-# employer
-
-- intent: post_jobs
-  examples: |
-    - how can I post a job
-
 # job seeker
-
 - intent: apply_for_a_job
   examples: |
     - how can I apply for a job
@@ -119,9 +112,16 @@ nlu:
     - can I apply for multiple jobs
     - can I apply for multiple positions
 
-- intent: service_cost
+- intent: service_cost_seeker
   examples: |
     - is there a cost for your service
+    - is there a cost for this service
+    - is there a cost for job hunt service
+    - is there a cost for job search service
+    - what are your fees for this service
+    - what are your fees for your service
+    - what are your fees for job hunt service
+    - what are your fees for job search service
 
 - intent: feedback_after_applying 
   examples: |
@@ -243,3 +243,150 @@ nlu:
 - intent: doing_network_effectively_to_help_my_career
   examples: |
     - how do I do network effectively to help my career
+
+# employer
+- intent: post_jobs
+  examples: |
+    - how can I post a job
+
+- intent: differentiate_from_others
+  examples: |
+    - how do you differentiate from other recruiting firms
+
+- intent: positions_fall_under_executive_search
+  examples: |
+    - what positions fall under your executive search service
+
+- intent: our_recruiting_process
+  examples: |
+    - what is your recruiting process
+
+- intent: time_to_fill_a_position
+  examples: |
+    - how long does it take to fill a position
+
+- intent: specialized_positions
+  examples: |
+    - what types of positions do you specialize in
+
+- intent: specialized_industries
+  examples: |
+    - what industries are your specialty
+
+- intent: coverage
+  examples: |
+    - what geography do you cover
+
+- intent: retainer
+  examples: |
+    - do you require a retainer
+
+- intent: service_cost_employer
+  examples: |
+    - is there a cost for your services
+    - is there a cost for these services
+    - what are your fees for these services
+    - what are your fees for your services
+    - is there a cost for your packages
+    - is there a cost for these packages
+    - what are your fees for these packages
+    - what are your fees for your packages
+    - how do I pay
+
+- intent: rates_location
+  examples: |
+    - where are your rates posted
+
+- intent: guarantee_offered_for_hired_candidates
+  examples: |
+    - do you offer a guarantee for candidates that are hired
+
+- intent: candidates_location
+  examples: |
+    - where do you find your candidates
+
+- intent: candidates_state
+  examples: |
+    - are your candidates active or passive
+
+- intent: recruit_from_competitors
+  examples: |
+    - do you recruit from my direct competitors
+
+- intent: guidance_on_compensation_for_position
+  examples: |
+    - can you provide guidance on compensation for position
+
+- intent: sales_commission
+  examples: |
+    - will you recruit for 100% commission sales reps
+
+- intent: recruit_for_temporary_positions
+  examples: |
+    - do you recruit for temporary positions
+
+- intent: recruit_for_b2c_sales
+  examples: |
+    - do you recruit for B2C sales representatives
+
+- intent: ways_for_job_seekers_to_find_posted_jobs
+  examples: |
+    - how do potential applicants find the job I posted
+
+- intent: ways_for_job_seekers_to_find_our_site
+  examples: |
+    - how do job seekers find your site
+    - how do job seekers find your website
+    - how do job seekers find abner-consulting.co.tz
+
+- intent: ways_to_share_resumes_with_others
+  examples: |
+    - how do I share the resumes with other people in my company
+
+- intent: ways_to_receive_resumes
+  examples: |
+    - how do I receive resumes
+
+- intent: ways_to_report_a_bug
+  examples: |
+    - how do I report a bug
+
+- intent: ways_to_post_sales_rep_info
+  examples: |
+    - how do I post sales rep information
+
+- intent: progress_of_employers_payment
+  examples: |
+    - how do I find out if I have paid for a posting or when my posting expires
+
+- intent: kind_of_job_seekers_available
+  examples: |
+    - what kind of job seekers are in your database
+    - what kind of job hunters are in your database
+
+- intent: ways_to_edit_posting
+  examples: |
+    - how do edit my posting
+
+- intent: confidential_post
+  examples: |
+    - can I post confidentially
+
+# general
+- intent: who_are_we
+  examples: |
+    - who are you
+    - who are you in a nutshell
+    - what do you do
+    - what do you do in a nutshell
+
+- intent: our_vision
+  examples: |
+    - what is your vision
+    - what's your vision
+
+- intent: our_mission
+  examples: |
+    - what is your mission
+    - what's your mission
+
