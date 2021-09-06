@@ -1,5 +1,4 @@
 version: "2.0"
-
 nlu:
 - intent: greet
   examples: |
@@ -17,7 +16,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -31,7 +29,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -40,7 +37,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -50,7 +46,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -67,7 +62,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -84,34 +78,28 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
-# job seeker
 - intent: apply_for_a_job
   examples: |
     - how can I apply for a job
     - how can I apply for a position
     - how do I apply for a job
     - how do I apply for a position
-
 - intent: steps_after_applying
   examples: |
     - what are next steps after I apply online for a position
     - what are next steps after I apply online for a job
-
 - intent: multiple_applications
   examples: |
     - I saw multiple positions on website, should I apply for all
     - I saw multiple jobs on website, should I apply for all
     - can I apply for multiple jobs
     - can I apply for multiple positions
-
 - intent: service_cost_seeker
   examples: |
     - is there a cost for your service
@@ -122,39 +110,31 @@ nlu:
     - what are your fees for your service
     - what are your fees for job hunt service
     - what are your fees for job search service
-
-- intent: feedback_after_applying 
+- intent: feedback_after_applying
   examples: |
     - what should I do if I haven't heard back from an application
-
-- intent: recommended_for_jobs 
+- intent: recommended_for_jobs
   examples: |
     - how to I ensure that I will be considered for current or future positiions
     - how to I ensure that I will be considered for current or future jobs
-
-- intent: seeking_for_advice_on_resume 
+- intent: seeking_for_advice_on_resume
   examples: |
     - can someone review my resume and give me advice
     - can someone review my cv and give me advice
-
-- intent: career_coaching 
+- intent: career_coaching
   examples: |
     - do you offer career career_coaching
-
-- intent: interview_preparation 
+- intent: interview_preparation
   examples: |
     - how should I prepare for my interview
-
-- intent: fair_pay_for_skills 
+- intent: fair_pay_for_skills
   examples: |
     - how can I determine a fair pay for my skills
     - how can I determine a fair salary for my skills
-
-- intent: meet_in_person 
+- intent: meet_in_person
   examples: |
     - can we meet in person
-
-- intent: resume_length 
+- intent: resume_length
   examples: |
     - how long should I make my cover letter and/or resume
     - how long should I make my cover letter and/or cv
@@ -163,67 +143,53 @@ nlu:
     - how long should I make my cv
     - how long should I make my curriculum vitae
     - how long should I make my resume
-
-- intent: resume_content 
+- intent: resume_content
   examples: |
     - what are the most important things to include in my resume
     - what are the most important things to include in my cv
     - what are the most important things to include in my curriculum vitae
-
-- intent: apply_with_no_experience 
+- intent: apply_with_no_experience
   examples: |
     - should I apply for a job even if I don't have the specified experience
     - should I apply for a position even if I don't have the specified experience
     - should I apply for a job even if I don’t have the required experience
-
-- intent: how_to_address_a_hiring_manager 
+- intent: how_to_address_a_hiring_manager
   examples: |
     - how should I address a hiring manager whose name I can’t find
-
-- intent: waiting_period_after_applying 
+- intent: waiting_period_after_applying
   examples: |
-    - how long should I wait before following up 
-
-- intent: sending_thank_you_letter 
+    - how long should I wait before following up
+- intent: sending_thank_you_letter
   examples: |
     - should I write a thank you letter by hand or in an email
-
-- intent: personal_brand 
+- intent: personal_brand
   examples: |
     - what exactly is a personal brand and why do I need one
-
-- intent: best_place_to_find_a_job 
+- intent: best_place_to_find_a_job
   examples: |
     - Where is the best place to find a job
     - Where is the best place to find a position
-
-- intent: job_search_website 
+- intent: job_search_website
   examples: |
     - which job search website should I use
     - which job hunt website should I use
-
-- intent: follow_up_after_an_interview 
+- intent: follow_up_after_an_interview
   examples: |
     - should I follow up after an interview
-
-- intent: write_a_cover_letter 
+- intent: write_a_cover_letter
   examples: |
     - should I write a cover letter
-
-- intent: best_time_to_look_for_a_job 
+- intent: best_time_to_look_for_a_job
   examples: |
     - when is the best time to look for a job
-
-- intent: stay_motivated_during_the_job_hunt 
+- intent: stay_motivated_during_the_job_hunt
   examples: |
     - how do I stay motivated during the job hunt
     - how do I stay motivated during the job search
-
-- intent: apply_in_person_or_online 
+- intent: apply_in_person_or_online
   examples: |
     - should I apply for jobs in person or online
-
-- intent: search_for_a_job_effectively 
+- intent: search_for_a_job_effectively
   examples: |
     - how can I search for a job effectively
     - how can I hunt for a job effectively
@@ -235,52 +201,39 @@ nlu:
     - can you help me find a position effectively
     - how do I search for a job effectively
     - how do I hunt for a job effectively
-
-- intent: look_for_a_new_job_while_still_employed 
+- intent: look_for_a_new_job_while_still_employed
   examples: |
     - how do I look for a new job while am still employed
-
 - intent: doing_network_effectively_to_help_my_career
   examples: |
     - how do I do network effectively to help my career
-
-# employer
 - intent: post_jobs
   examples: |
     - how can I post a job
-
 - intent: differentiate_from_others
   examples: |
     - how do you differentiate from other recruiting firms
-
 - intent: positions_fall_under_executive_search
   examples: |
     - what positions fall under your executive search service
-
 - intent: our_recruiting_process
   examples: |
     - what is your recruiting process
-
 - intent: time_to_fill_a_position
   examples: |
     - how long does it take to fill a position
-
 - intent: specialized_positions
   examples: |
     - what types of positions do you specialize in
-
 - intent: specialized_industries
   examples: |
     - what industries are your specialty
-
 - intent: coverage
   examples: |
     - what geography do you cover
-
 - intent: retainer
   examples: |
     - do you require a retainer
-
 - intent: service_cost_employer
   examples: |
     - is there a cost for your services
@@ -292,101 +245,77 @@ nlu:
     - what are your fees for these packages
     - what are your fees for your packages
     - how do I pay
-
 - intent: rates_location
   examples: |
     - where are your rates posted
-
 - intent: guarantee_offered_for_hired_candidates
   examples: |
     - do you offer a guarantee for candidates that are hired
-
 - intent: candidates_location
   examples: |
     - where do you find your candidates
-
 - intent: candidates_state
   examples: |
     - are your candidates active or passive
-
 - intent: recruit_from_competitors
   examples: |
     - do you recruit from my direct competitors
-
 - intent: guidance_on_compensation_for_position
   examples: |
     - can you provide guidance on compensation for position
-
 - intent: sales_commission
   examples: |
     - will you recruit for 100% commission sales reps
-
 - intent: recruit_for_temporary_positions
   examples: |
     - do you recruit for temporary positions
-
 - intent: recruit_for_b2c_sales
   examples: |
     - do you recruit for B2C sales representatives
-
 - intent: ways_for_job_seekers_to_find_posted_jobs
   examples: |
     - how do potential applicants find the job I posted
-
 - intent: ways_for_job_seekers_to_find_our_site
   examples: |
     - how do job seekers find your site
     - how do job seekers find your website
     - how do job seekers find abner-consulting.co.tz
-
 - intent: ways_to_share_resumes_with_others
   examples: |
     - how do I share the resumes with other people in my company
-
 - intent: ways_to_receive_resumes
   examples: |
     - how do I receive resumes
-
 - intent: ways_to_report_a_bug
   examples: |
     - how do I report a bug
-
 - intent: ways_to_post_sales_rep_info
   examples: |
     - how do I post sales rep information
-
 - intent: progress_of_employers_payment
   examples: |
     - how do I find out if I have paid for a posting or when my posting expires
-
 - intent: kind_of_job_seekers_available
   examples: |
     - what kind of job seekers are in your database
     - what kind of job hunters are in your database
-
 - intent: ways_to_edit_posting
   examples: |
     - how do edit my posting
-
 - intent: confidential_post
   examples: |
     - can I post confidentially
-
-# general
 - intent: who_are_we
   examples: |
     - who are you
     - who are you in a nutshell
     - what do you do
     - what do you do in a nutshell
-
 - intent: our_vision
   examples: |
     - what is your vision
     - what's your vision
-
 - intent: our_mission
   examples: |
     - what is your mission
     - what's your mission
-

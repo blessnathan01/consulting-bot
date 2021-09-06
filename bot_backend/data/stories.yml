@@ -29,13 +29,6 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: search job effectively path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: search_for_a_job_effectively
-  - action: utter_search_for_a_job_effectively
-
 - story: who are we path
   steps:
   - intent: greet
@@ -56,3 +49,10 @@ stories:
   - action: utter_greet
   - intent: our_mission
   - action: utter_our_mission
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search_for_a_job_effectively
+  - action: utter_search_for_a_job_effectively
